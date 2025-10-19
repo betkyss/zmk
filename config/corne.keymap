@@ -175,19 +175,19 @@
 
         default_layer {
             bindings = <
-&kp CAPSLOCK    &kp Q  &kp W  &kp E         &kp R      &kp T    &kp Y        &kp U     &kp I      &kp O    &kp P     &lt FLR LEFT_BRACKET
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &tdF       &kp G    &kp H        &tdJ      &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp V      &kp B    &kp N        &kp M     &kp COMMA  &kp DOT  &kp FSLH  &mt RALT RIGHT_BRACKET
-                              &mt LGUI RET  &kt SPACE  &mo 1    &lt RSE ESC  &kp BSPC  &kp TAB
+&kp CAPSLOCK    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y        &kp U     &kp I      &kp O    &kp P     &lt FLR LEFT_BRACKET
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &tdF   &kp G        &kp H        &tdJ      &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N        &kp M     &kp COMMA  &kp DOT  &kp FSLH  &mt RALT RIGHT_BRACKET
+                              &mt LGUI RET  &mo 1  &kp SPACE    &lt RSE ESC  &kp BSPC  &kp TAB
             >;
         };
 
         lower_layer {
             bindings = <
-&kp TILDE  &kp N1    &kp N2  &kp N3    &kp N4       &kp N5         &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp F17
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR     &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp F18
-&kp LSHFT  &trans    &trans  &trans    &kp LG(F11)  &kp LG(F12)    &trans     &trans     &trans     &trans    &trans    &kp F14
-                             &mo ADJ   &trans       &kp LGUI       &kp DOT    &kp COMMA  &kp SLASH
+&kp TILDE  &kp N1      &kp N2      &kp N3      &kp N4       &kp N5         &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp F17
+&kp GRAVE  &kp EXCL    &kp AT      &kp HASH    &kp DLLR     &kp PRCNT      &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR    &kp F18
+&kp LSHFT  &kp LG(F1)  &kt LG(F2)  &kp LG(F3)  &kp LG(F11)  &kp LG(F12)    &kt LG(F4)  &kp LG(F5)  &kp LG(F6)  &kt LG(F7)  &kt LG(F8)  &kp F14
+                                   &mo ADJ     &trans       &kp LGUI       &kp DOT     &kp COMMA   &kp SLASH
             >;
         };
 
